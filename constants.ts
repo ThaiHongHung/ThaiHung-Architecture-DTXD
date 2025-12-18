@@ -18,9 +18,9 @@ export const BASEMENT_PERCENT: Record<BasementType, number> = {
 
 export const ROOF_PERCENT: Record<RoofType, number> = {
   [RoofType.IRON_SHEET]: 0.30,
-  [RoofType.CONCRETE]: 0.50,
+  [RoofType.CONCRETE]: 1.00,
   [RoofType.TILE_IRON]: 0.70,
-  [RoofType.TILE_CONCRETE]: 1.00,
+  [RoofType.TILE_CONCRETE]: 1.50,
 };
 
 // K Factors

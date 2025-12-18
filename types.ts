@@ -14,10 +14,10 @@ export enum BasementType {
 }
 
 export enum RoofType {
-  IRON_SHEET = 'Mái Tôn',
-  CONCRETE = 'Mái BTCT',
-  TILE_IRON = 'Ngói kèo sắt',
-  TILE_CONCRETE = 'Ngói BTCT'
+  IRON_SHEET = 'Mái Tôn (30%)',
+  CONCRETE = 'Mái BTCT (100%)',
+  TILE_IRON = 'Ngói kèo sắt (70%)',
+  TILE_CONCRETE = 'Mái BTCT dán ngói (150%)'
 }
 
 export enum RoadWidth {
